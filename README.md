@@ -18,4 +18,4 @@ Requires [NodeJS](https://nodejs.org/en/), I ran it with 14.16.1 LTS but other v
 
 It will take a few minutes, since it waits a few seconds between each call to scoresaber.
 
-
+To build .exe file use `pkg package.json` (might need to install pkg first though)

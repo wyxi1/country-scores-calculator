@@ -4,12 +4,12 @@ const jsdom = require("jsdom");
 var ALL_PLAYERS = {};
 
 var ACC_MAPS = ["300833","329873","315634","346634","190915","139978","121456","311274","318941"];
-var SPEED_MAPS = ["247579","209188","183865","337858","345321","345751","179941","182492","348344"];
+var SPEED_MAPS = ["348320","348299","329702","348061","342452","348150","348344","343021"];
 
 async function fetchLeaderboard(id) {
 	
 	var MAX_SWEDES = 10;
-	var NUM_PAGES_TO_FETCH = 10;
+	var NUM_PAGES_TO_FETCH = 20;
 	var topPlays = [];
 	
 	var earlyStop = false;

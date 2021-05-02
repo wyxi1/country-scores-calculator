@@ -2,7 +2,11 @@
   "name": "bswc",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "leaderboardFetch.js",
+  "bin": "leaderboardFetch.js",
+  "pkg": {
+    "targets": [ "node14-win-x64" ]
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
